@@ -1,0 +1,5 @@
+.course__text {
+	@include text($fontStyle, $fontColorBlack, 400, 20px, 27px);
+	grid-column: 1 / 2;
+	grid-row: 2 / 3;
+}

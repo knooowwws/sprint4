@@ -1,0 +1,8 @@
+.course {
+	padding: 50px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 220px 166px 49px;
+	row-gap: 60px;
+	column-gap: 55px;
+}

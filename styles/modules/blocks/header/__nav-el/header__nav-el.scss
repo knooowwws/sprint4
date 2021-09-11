@@ -1,0 +1,4 @@
+.header__nav-el {
+	text-decoration: none;
+	@include text($fontStyle, $fontColorWhite, 400, 16px, 24px);
+}

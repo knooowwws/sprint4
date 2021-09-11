@@ -1,0 +1,20 @@
+//Vendor
+@import '../vendor/normalize/normalize.css';
+@import '../vendor/fonts/fonts.css';
+
+//other
+@import './modules/variables.scss';
+@import './modules/mixins.scss';
+
+//BLOCKS
+//header
+@import './modules/blocks/header/header.scss';
+@import './modules/blocks/header/__nav/header__nav.scss';
+@import './modules/blocks/header/__nav-el/header__nav-el.scss';
+
+//course
+@import './modules/blocks/course/course.scss';
+@import './modules/blocks/course/__title/course__title.scss';
+@import './modules/blocks/course/__img/course__img.scss';
+@import './modules/blocks/course/__text/course__text.scss';
+@import './modules/blocks/course/__btn/course__btn.scss';

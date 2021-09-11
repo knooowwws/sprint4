@@ -1,0 +1,70 @@
+@import '../vendor/normalize/normalize.css';
+@import '../vendor/fonts/fonts.css';
+.header {
+  background-color: #df2626;
+  display: flex;
+  flex-direction: row;
+  padding: 0 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__nav {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.header__nav-el {
+  text-decoration: none;
+  font-family: "Roboto", Arial, sans-serif;
+  color: #FBFBFB;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+}
+
+.course {
+  padding: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 220px 166px 49px;
+  row-gap: 60px;
+  -moz-column-gap: 55px;
+       column-gap: 55px;
+}
+
+.course__title {
+  font-family: "Roboto", Arial, sans-serif;
+  color: #000000;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 110px;
+  margin: 0;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.course__img {
+  max-width: 642px;
+  max-height: 555px;
+  grid-column: 2/3;
+  grid-row: 1/4;
+}
+
+.course__text {
+  font-family: "Roboto", Arial, sans-serif;
+  color: #000000;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  margin: 0;
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.course__btn {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
